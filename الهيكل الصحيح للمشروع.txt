@@ -1,0 +1,35 @@
+smartlife-ai/
+│
+├── backend/
+│   ├── src/
+│   │   ├── server.js
+│   │   ├── db.js
+│   │   ├── middleware/
+│   │   │   └── auth.js
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── receipts.js
+│   │   │   └── insights.js
+│   │   └── config/
+│   │       └── env.js
+│   ├── package.json
+│   └── .env
+│
+├── frontend/
+│   ├── src/
+│   │   ├── main.tsx
+│   │   ├── App.tsx
+│   │   ├── api/
+│   │   │   └── client.ts
+│   │   ├── pages/
+│   │   │   ├── Login.tsx
+│   │   │   ├── Dashboard.tsx
+│   │   │   └── Insights.tsx
+│   │   └── components/
+│   │       ├── Card.tsx
+│   │       └── Button.tsx
+│   ├── index.html
+│   ├── vite.config.ts
+│   └── package.json
+│
+└── README.md
